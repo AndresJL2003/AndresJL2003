@@ -144,7 +144,7 @@ sections.forEach(section => {
 // TYPING EFFECT FOR ROLE (Optional Enhancement)
 // ═══════════════════════════════════════════════════════════════
 
-const roles = ['Full Stack Developer', 'Backend Developer', 'Frontend Developer', 'Problem Solver'];
+const roles = ['Desarrollador Full Stack', 'Desarrollador Backend', 'Desarrollador Frontend', 'Solucionador de Problemas'];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
