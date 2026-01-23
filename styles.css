@@ -316,6 +316,12 @@ body {
     gap: 20px;
 }
 
+.services-grid .service-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 50%;
+    justify-self: center;
+}
+
 .service-card {
     display: flex;
     gap: 15px;
