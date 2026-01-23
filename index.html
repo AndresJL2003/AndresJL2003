@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AndresJL | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix"></canvas>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="avatar-container">
+                    <img src="perfil.jpg" alt="AndresJL" class="avatar">
+                    <span class="status-indicator"></span>
+                </div>
+                <h1 class="name">AndresJL</h1>
+                <span class="role">Full Stack Developer</span>
+            </div>
+
+            <div class="info-section">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <span class="info-label">EMAIL</span>
+                        <span class="info-value">joseandresjustiniano320@gmail.com</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <span class="info-label">GITHUB</span>
+                        <span class="info-value">AndresJL2003</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span class="info-label">UBICACIÓN</span>
+                        <span class="info-value">Conectado al sistema</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-circle status-online"></i>
+                    <div>
+                        <span class="info-label">STATUS</span>
+                        <span class="info-value online">ONLINE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/AndresJL2003" target="_blank" class="social-btn">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:joseandresjustiniano320@gmail.com" class="social-btn">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#" class="social-btn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+            <div class="binary-decoration">
+                01001100 01001111 01000001 01000100
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Navigation -->
+            <nav class="nav-menu">
+                <a href="#about" class="nav-item active">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#services" class="nav-item">Services</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line"></div>
+
+                <p class="about-text">
+                    Soy <span class="highlight">Desarrollador Full Stack</span> apasionado por crear soluciones tecnológicas innovadoras.
+                    Me especializo en transformar ideas en código funcional y eficiente, trabajando tanto en el frontend como en el backend.
+                </p>
+                <p class="about-text">
+                    Mi objetivo es construir aplicaciones web que sean funcionales, atractivas y fáciles de usar.
+                    Agrego un toque personal a cada proyecto, asegurándome de que sea llamativo y fácil de utilizar.
+                    Siempre en búsqueda de nuevos desafíos y aprendizaje continuo.
+                </p>
+
+                <!-- What I'm Doing -->
+                <h3 class="subsection-title">What I'm Doing</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Web Development</h4>
+                            <p>Desarrollo web profesional de alta calidad a nivel profesional.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Backend Development</h4>
+                            <p>APIs RESTful, microservicios y arquitecturas escalables.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Frontend Development</h4>
+                            <p>Interfaces modernas y responsivas con las últimas tecnologías.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Database Management</h4>
+                            <p>Diseño y optimización de bases de datos SQL y NoSQL.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="title-line"></div>
+
+                <div class="skills-category">
+                    <h4 class="category-title"><i class="fas fa-code"></i> Languages</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4 class="category-title"><i class="fas fa-laptop-code"></i> Frontend</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vuejs"></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4 class="category-title"><i class="fas fa-server"></i> Backend</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>.NET</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4 class="category-title"><i class="fas fa-database"></i> Databases</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4 class="category-title"><i class="fas fa-tools"></i> Tools</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2 class="section-title">Contact</h2>
+                <div class="title-line"></div>
+
+                <div class="contact-info">
+                    <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+                    <a href="mailto:joseandresjustiniano320@gmail.com" class="contact-btn">
+                        <i class="fas fa-envelope"></i> Enviar Email
+                    </a>
+                    <a href="https://github.com/AndresJL2003" target="_blank" class="contact-btn github">
+                        <i class="fab fa-github"></i> Ver GitHub
+                    </a>
+                </div>
+
+                <div class="footer-quote">
+                    <span class="quote">"Talk is cheap. Show me the code."</span>
+                    <span class="author">- Linus Torvalds</span>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
