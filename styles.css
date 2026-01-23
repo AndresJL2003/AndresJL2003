@@ -322,6 +322,14 @@ body {
     justify-self: center;
 }
 
+@media (max-width: 900px) {
+    .services-grid .service-card:last-child {
+        grid-column: auto;
+        max-width: 100%;
+        justify-self: stretch;
+    }
+}
+
 .service-card {
     display: flex;
     gap: 15px;
