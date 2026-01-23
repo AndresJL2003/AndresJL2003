@@ -480,7 +480,8 @@ body {
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
-        margin: 20px;
+        margin: 15px;
+        gap: 20px;
     }
 
     .sidebar {
@@ -494,38 +495,161 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .services-grid .service-card:last-child {
+        max-width: 100%;
+    }
+
     .nav-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .skills-grid {
         justify-content: center;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .container {
         margin: 10px;
-        padding: 10px;
+        padding: 5px;
     }
 
     .sidebar,
     .main-content {
-        padding: 20px;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .avatar {
+        width: 120px;
+        height: 120px;
     }
 
     .name {
-        font-size: 1.5rem;
-    }
-
-    .section-title {
         font-size: 1.4rem;
     }
 
+    .role {
+        font-size: 0.75rem;
+        padding: 6px 15px;
+    }
+
+    .info-value {
+        font-size: 0.8rem;
+        word-break: break-word;
+    }
+
+    .info-label {
+        font-size: 0.65rem;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .nav-menu {
+        gap: 3px;
+    }
+
     .nav-item {
-        padding: 8px 15px;
+        padding: 8px 12px;
+        font-size: 0.75rem;
+    }
+
+    .about-text {
+        font-size: 0.9rem;
+    }
+
+    .service-card {
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem;
+    }
+
+    .service-content h4 {
+        font-size: 0.95rem;
+    }
+
+    .service-content p {
         font-size: 0.8rem;
     }
 
+    .skills-grid {
+        gap: 8px;
+    }
+
     .skill-item {
-        padding: 10px 15px;
-        font-size: 0.8rem;
+        padding: 8px 12px;
+        font-size: 0.75rem;
+    }
+
+    .skill-item i {
+        font-size: 1rem;
+    }
+
+    .category-title {
+        font-size: 0.9rem;
+    }
+
+    .contact-btn {
+        padding: 12px 25px;
+        font-size: 0.85rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+
+    .social-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .binary-decoration {
+        font-size: 0.55rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        margin: 5px;
+    }
+
+    .sidebar,
+    .main-content {
+        padding: 15px 10px;
+    }
+
+    .nav-item {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+    }
+
+    .skill-item {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+    }
+
+    .skill-item i {
+        font-size: 0.9rem;
     }
 }
 
